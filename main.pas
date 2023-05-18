@@ -91,7 +91,11 @@ end;
 
 procedure handle_messages(state : Ptwirc_state_t; event:Ptwirc_event_t);cdecl;
 begin
-   writeln((event^).origin, ': ', (event^).message);
+   write(#27'[1;31m');
+   write((event^).origin, ': ');
+   write(#27'[1;32m');
+   writeln((event^).message);
+   write(#27'[0;37m');
 end;
 
 var
