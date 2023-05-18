@@ -95,7 +95,7 @@ begin
    write((event^).origin, ': ');
    write(#27'[1;32m');
    writeln((event^).message);
-   write(#27'[0;37m');
+   write(#27'[0;0m');
 end;
 
 var
