@@ -15,6 +15,10 @@ $ fpc main.pas
 $ ./main channel-name
 ```
 
+### Demo
+
+<img src="https://raw.githubusercontent.com/thechampagne/twitch-term/main/.github/assets/demo.gif"/>
+
 ### License
 
 This repo is released under the [MIT License](https://github.com/thechampagne/twitch-term/blob/main/LICENSE).
